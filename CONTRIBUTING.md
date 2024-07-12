@@ -31,6 +31,7 @@ Close the repo and open it in VS Code.
 VS Code will automatically offer to run this project in a dev container when the project is opened.
 No additional setup will be required.
 
+
 ### Using your local system without the dev container
 
 This is the longest and most involved and error-prone approach and is documented for those who can't use one of the methods above or prefer to do everything within the native operating system environment.
@@ -73,6 +74,7 @@ To run Linguist from the cloned repository:
 bundle exec bin/github-linguist --breakdown
 ```
 
+
 ## Adding an extension to a language
 
 We try only to add new extensions once they have some usage on GitHub.
@@ -102,6 +104,7 @@ Additionally, if this extension is already listed in [`languages.yml`][languages
 Remember, the goal here is to try and avoid false positives!
 
 See [My Linguist PR has been merged but GitHub doesn't reflect my changes][merged-pr] for details on when your changes will appear on GitHub after your PR has been merged.
+
 
 ## Adding a language
 

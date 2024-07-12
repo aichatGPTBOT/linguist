@@ -1,3 +1,4 @@
+
 #pragma once
 #include <string>
 #include <vector>
@@ -10,7 +11,8 @@ using namespace std;
 #define DEFAULT_DELIMITER	','
 
 
-class CsvStreamer
+class 
+CsvStreamer
 {
 	private:
 		ofstream file;				// File output stream
